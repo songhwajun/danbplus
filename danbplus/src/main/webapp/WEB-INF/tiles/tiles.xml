@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
-	<definition name="layout-tiles" template="/WEB-INF/tiles/layout/layout-basic.jsp">
+	<definition name="layout-tiles" template="/WEB-INF/tiles/layout/layout.jsp">
 		<put-attribute name="header" value="/WEB-INF/tiles/layout/header.jsp"/>
 		<put-attribute name="side" value="/WEB-INF/tiles/layout/side.jsp"/>
 		<put-attribute name="body" value=""/>
@@ -9,15 +9,15 @@
 	</definition>
 	
 	<!-- tiles 레이아웃 적용 -->
- 	<definition name="*" extends="layout-tiles">
+ 	<definition name="*.tiles" extends="layout-tiles">
  		<put-attribute name="title" value="Tiles 적용_1" />
 		<put-attribute name="body" value="/WEB-INF/views/{1}.jsp"/>
 	</definition>
- 	<definition name="*/*" extends="layout-tiles">
+ 	<definition name="*/*.tiles" extends="layout-tiles">
  		<put-attribute name="title" value="Tiles 적용_2" />
 		<put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp"/>
 	</definition>
-	<definition name="*/*/*" extends="layout-tiles">
+	<definition name="*/*/*.tiles" extends="layout-tiles">
 		<put-attribute name="title" value="Tiles 적용_3" />
 		<put-attribute name="body" value="/WEB-INF/views/{1}/{2}/{3}.jsp"/>
 	</definition>

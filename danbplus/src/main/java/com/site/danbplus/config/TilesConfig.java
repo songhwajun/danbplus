@@ -13,7 +13,7 @@ public class TilesConfig {
 	public TilesConfigurer tilesConfigurer() {
 		final TilesConfigurer configurer = new TilesConfigurer();
 		configurer.setDefinitions(new String[] {
-				"/WEB-INF/tiles/default-layout.xml"
+				"/WEB-INF/tiles/tiles.xml"
 		});
 		configurer.setCheckRefresh(true);
 		
@@ -26,7 +26,9 @@ public class TilesConfig {
 		TilesViewResolver resolver = new TilesViewResolver();
 		resolver.setViewClass(TilesView.class);
 		resolver.setOrder(1);
-		System.out.println("#### tiles resolver Ž #####");
+		System.out.println("===========================================");
+		System.out.println("[START] TilesViewResolver");
+		System.out.println("===========================================");
 		return resolver;
 		
 	}

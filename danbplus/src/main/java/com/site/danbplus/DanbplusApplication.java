@@ -9,6 +9,10 @@ import org.springframework.context.annotation.ComponentScan;
 public class DanbplusApplication {
 
 	public static void main(String[] args) {
+		System.out.println("===========================================");
+		System.out.println("[START] Spring");
+		System.out.println("===========================================");
+		
 		SpringApplication.run(DanbplusApplication.class, args);
 	}
 
