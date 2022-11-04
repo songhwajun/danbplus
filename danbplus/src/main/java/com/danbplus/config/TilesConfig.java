@@ -1,4 +1,4 @@
-package com.site.danbplus.config;
+package com.danbplus.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
