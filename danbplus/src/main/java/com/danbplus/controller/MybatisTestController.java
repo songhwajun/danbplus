@@ -28,7 +28,7 @@ public class MybatisTestController {
 	}
 	
 	@GetMapping("/code2")
-	public ModelAndView getCodeList2() {
+	public ModelAndView getCodeList2() { 
 		System.out.println("===========================================");
 		System.out.println("CodeController [code2]");
 		System.out.println("===========================================");
