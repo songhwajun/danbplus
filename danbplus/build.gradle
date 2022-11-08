@@ -30,22 +30,21 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 
-	// JSP ∂Û¿Ã∫Í∑Ø∏Æ √ﬂ∞°
+	// JSP ÎùºÏù¥Î∏åÎü¨Î¶¨
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	implementation 'javax.servlet:jstl:1.2'
 	
-	// tiles ∂Û¿Ã∫Í∑Ø∏Æ √ﬂ∞°
+	// tiles ÎùºÏù¥Î∏åÎü¨Î¶¨
 	implementation 'org.apache.tiles:tiles-jsp:3.0.5'
 	implementation 'org.apache.tiles:tiles-servlet:3.0.5'
 	implementation 'org.apache.tiles:tiles-core:3.0.5'
 	implementation 'org.apache.tiles:tiles-api:3.0.5'
 	implementation 'org.apache.tiles:tiles-el:3.0.5'
 	
-	// Mybatis ∂Û¿Ã∫Í∑Ø∏Æ √ﬂ∞°
+	// Mybatis ÎùºÏù¥Î∏åÎü¨Î¶¨
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
 	implementation 'mysql:mysql-connector-java'
-	
 }
 
 tasks.named('test') {

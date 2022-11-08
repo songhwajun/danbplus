@@ -17,7 +17,6 @@ public class HomeController {
 		System.out.println("Main");
 		System.out.println("===========================================");
 
-		// 데이터 세팅
 		model.addAttribute("key", "val");
 		return "main/main.tiles";
 	}
@@ -29,9 +28,7 @@ public class HomeController {
 		System.out.println("===========================================");
 		
 		ModelAndView mv = new ModelAndView();
-		// 데이터 세팅
 		mv.addObject("key", "val");
-		// 호출 url 세팅
 		mv.setViewName("login/login.view");
 		
 		return mv;

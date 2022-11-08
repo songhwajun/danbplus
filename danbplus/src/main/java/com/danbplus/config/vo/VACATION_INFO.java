@@ -1,17 +1,17 @@
-package com.danbplus.vo.user;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 import java.util.Date;
 
 public class VACATION_INFO {
-	private String vac_no;		// ÈŞ°¡¹øÈ£
-	private int usr_no;         // »ç¿ø¹øÈ£
-	private String usr_vac;     // ÈŞ°¡±¸ºĞ
-	private Date vac_start_dt;  // ÈŞ°¡ ½ÃÀÛÀÏ
-	private Date vac_end_dt;    // ÈŞ°¡ Á¾·áÀÏ
-	private String vac_reason;  // ÈŞ°¡ »çÀ¯
-	private String reg_nm;      // µî·ÏÀÚ
-	private Timestamp reg_dt;   // µî·ÏÀÏ
+	private String vac_no;		// íœ´ê°€ë²ˆí˜¸
+	private int usr_no;         // ì‚¬ì›ë²ˆí˜¸
+	private String usr_vac;     // íœ´ê°€êµ¬ë¶„
+	private Date vac_start_dt;  // íœ´ê°€ ì‹œì‘ì¼
+	private Date vac_end_dt;    // íœ´ê°€ ì¢…ë£Œì¼
+	private String vac_reason;  // íœ´ê°€ ì‚¬ìœ 
+	private String reg_nm;      // ë“±ë¡ì
+	private Timestamp reg_dt;   // ë“±ë¡ì¼
 	
 	public VACATION_INFO() {
 		super();

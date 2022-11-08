@@ -1,13 +1,13 @@
-package com.danbplus.vo.login;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class LOGIN_MGT {
-	private String usr_id;			   // ¾ÆÀÌµğ
-	private String usr_pw;             // ºñ¹Ğ¹øÈ£
-	private Timestamp last_login_dt;   // ¸¶Áö¸· ·Î±×ÀÎ ÀÏÀÚ
-	private String pw_err_cnt;         // ºñ¹Ğ¹øÈ£ ¿À·ùÈ½¼ö
-	private Timestamp pw_upd_dt;       // ºñ¹Ğ¹øÈ£ º¯°æÀÏ
+	private String usr_id;			   // ì•„ì´ë””
+	private String usr_pw;             // ë¹„ë°€ë²ˆí˜¸
+	private Timestamp last_login_dt;   // ë§ˆì§€ë§‰ ë¡œê·¸ì¸ ì¼ì
+	private String pw_err_cnt;         // ë¹„ë°€ë²ˆí˜¸ ì˜¤ë¥˜íšŸìˆ˜
+	private Timestamp pw_upd_dt;       // ë¹„ë°€ë²ˆí˜¸ ë³€ê²½ì¼
 	
 	public LOGIN_MGT() {
 		super();

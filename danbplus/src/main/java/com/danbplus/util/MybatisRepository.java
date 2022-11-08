@@ -1,4 +1,4 @@
-package com.danbplus.mybatis;
+package com.danbplus.util;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
-import com.danbplus.vo.common.COD_MGT;
+import com.danbplus.config.vo.COD_MGT;
 
 @Mapper
 @Repository
-public interface MybatisTestRepository {
+public interface MybatisRepository {
 	List<COD_MGT> getCodeList(HashMap<String, String> param);
 }

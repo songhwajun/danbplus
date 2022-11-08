@@ -1,14 +1,14 @@
-package com.danbplus.vo.admin;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class PER_INFO {
-	private int usr_no;			 // »ç¿ø¹øÈ£
-	private String mnu_gb;       // ¸Ş´º ±¸ºĞ
-	private String mnu_no;       // ¸Ş´º ¹øÈ£
-	private String work_show_yn; // ¾÷¹« Á¢±Ù±ÇÇÑ YN
-	private String reg_nm;       // µî·ÏÀÚ
-	private Timestamp reg_dt;    // µî·ÏÀÏ
+	private int usr_no;			 // ì‚¬ì›ë²ˆí˜¸
+	private String mnu_gb;       // ë©”ë‰´ êµ¬ë¶„
+	private String mnu_no;       // ë©”ë‰´ ë²ˆí˜¸
+	private String work_show_yn; // ì—…ë¬´ ì ‘ê·¼ê¶Œí•œ YN
+	private String reg_nm;       // ë“±ë¡ì
+	private Timestamp reg_dt;    // ë“±ë¡ì¼
 	
 	public PER_INFO() {
 		super();

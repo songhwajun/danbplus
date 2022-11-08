@@ -1,24 +1,24 @@
-package com.danbplus.vo.user;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 import java.util.Date;
 
 public class USER_INFO {
-	private int usr_no;						// »ç¿ø¹øÈ£
-	private String usr_id;                  // ¾ÆÀÌµğ
-	private String usr_team;                // ¼Ò¼Ó
-	private String usr_rank;                // Á÷±Ş
-	private String usr_grade;               // µî±Ş
-	private String usr_nm;                  // ÀÌ¸§
-	private Date usr_birthday ;             // »ı³â¿ùÀÏ
-	private String usr_email;               // °³ÀÎ ÀÌ¸ŞÀÏ
-	private String usr_email2;              // »ç³» ÀÌ¸ŞÀÏ
-	private String usr_phone;               // ÈŞ´ëÆù¹øÈ£
-	private String usr_gender;              // ¼ºº°
-	private Date usr_company_start_work;    // ÀÔ»çÀÏ
-	private Date usr_permanent_employee;    // Á¤±ÔÁ÷ ÀüÈ¯ÀÏ
-	private String reg_nm;                  // µî·ÏÀÚ
-	private Timestamp reg_dt;               // µî·ÏÀÏ
+	private int usr_no;						// ì‚¬ì›ë²ˆí˜¸
+	private String usr_id;                  // ì•„ì´ë””
+	private String usr_team;                // ì†Œì†
+	private String usr_rank;                // ì§ê¸‰
+	private String usr_grade;               // ë“±ê¸‰
+	private String usr_nm;                  // ì´ë¦„
+	private Date usr_birthday ;             // ìƒë…„ì›”ì¼
+	private String usr_email;               // ê°œì¸ ì´ë©”ì¼
+	private String usr_email2;              // ì‚¬ë‚´ ì´ë©”ì¼
+	private String usr_phone;               // íœ´ëŒ€í°ë²ˆí˜¸
+	private String usr_gender;              // ì„±ë³„
+	private Date usr_company_start_work;    // ì…ì‚¬ì¼
+	private Date usr_permanent_employee;    // ì •ê·œì§ ì „í™˜ì¼
+	private String reg_nm;                  // ë“±ë¡ì
+	private Timestamp reg_dt;               // ë“±ë¡ì¼
 	
 	public USER_INFO() {
 		super();

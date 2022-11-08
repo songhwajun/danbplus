@@ -1,13 +1,13 @@
-package com.danbplus.vo.aprv;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class VACATION_APRV {
-	private int aprv_no;		// ½ÂÀÎÀÚÀÇ »ç¿ø¹øÈ£
-	private String vac_no;      // ÈŞ°¡¹øÈ£
-	private String aprv_reason; // ÈŞ°¡ ½ÂÀÎ/¹İ·Á»çÀ¯
-	private String reg_nm;      // µî·ÏÀÚ
-	private Timestamp reg_dt;   // µî·ÏÀÏ
+	private int aprv_no;		// ìŠ¹ì¸ìì˜ ì‚¬ì›ë²ˆí˜¸
+	private String vac_no;      // íœ´ê°€ë²ˆí˜¸
+	private String aprv_reason; // íœ´ê°€ ìŠ¹ì¸/ë°˜ë ¤ì‚¬ìœ 
+	private String reg_nm;      // ë“±ë¡ì
+	private Timestamp reg_dt;   // ë“±ë¡ì¼
 	
 	public VACATION_APRV() {
 		super();

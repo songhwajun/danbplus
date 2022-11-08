@@ -1,12 +1,12 @@
-package com.danbplus.vo.common;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class IMG_URL {
-	private String img_url;	   // ÀÌ¹ÌÁö °æ·Î
-	private String img_nm;     // ÆÄÀÏ¸í
-	private String reg_nm;     // µî·ÏÀÚ
-	private Timestamp reg_dt;  // µî·ÏÀÏ
+	private String img_url;	   // ì´ë¯¸ì§€ ê²½ë¡œ
+	private String img_nm;     // íŒŒì¼ëª…
+	private String reg_nm;     // ë“±ë¡ì
+	private Timestamp reg_dt;  // ë“±ë¡ì¼
 	
 	public IMG_URL() {
 		super();

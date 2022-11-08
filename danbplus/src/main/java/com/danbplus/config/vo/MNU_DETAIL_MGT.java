@@ -1,17 +1,17 @@
-package com.danbplus.vo.common;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class MNU_DETAIL_MGT {
-	private String mnu_gb;					// ¸Ş´º ±¸ºĞ
-	private int mnu_detail_depth;       	// ¸Ş´º »ó¼¼ depth
-	private String mnu_detail_description;  // ¸Ş´º »ó¼¼¼³¸í
-	private int mnu_order;            	    // ¸Ş´º ¼ø¼­
-	private String mnu_no;                  // ¸Ş´º ¹øÈ£
-	private String mnu_detail_show_yn;      // ¸Ş´º ³ëÃâYN
-	private String mnu_detail_gb;           // ¸Ş´º »ó¼¼ ±¸ºĞ
-	private String reg_nm;                  // µî·ÏÀÚ
-	private Timestamp reg_dt;               // µî·ÏÀÏ
+	private String mnu_gb;					// ë©”ë‰´ êµ¬ë¶„
+	private int mnu_detail_depth;       	// ë©”ë‰´ ìƒì„¸ depthh
+	private String mnu_detail_description;  // ë©”ë‰´ ìƒì„¸ì„¤ëª…
+	private int mnu_order;            	    // ë©”ë‰´ ìˆœì„œ
+	private String mnu_no;                  // ë©”ë‰´ ë²ˆí˜¸
+	private String mnu_detail_show_yn;      // ë©”ë‰´ ë…¸ì¶œYN
+	private String mnu_detail_gb;           // ë©”ë‰´ ìƒì„¸ êµ¬ë¶„
+	private String reg_nm;                  // ë“±ë¡ì
+	private Timestamp reg_dt;               // ë“±ë¡ì¼
 	
 	public MNU_DETAIL_MGT() {
 		super();

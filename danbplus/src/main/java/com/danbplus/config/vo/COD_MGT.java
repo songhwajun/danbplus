@@ -1,13 +1,13 @@
-package com.danbplus.vo.common;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class COD_MGT {
-	private String cod_gb;			// ÄÚµå ±¸ºĞ
-	private String cod_depth;       // ÄÚµå depth
-	private String cod_description; // ÄÚµå ¼³¸í
-	private String reg_nm;          // µî·ÏÀÚ
-	private Timestamp reg_dt;       // µî·ÏÀÏ
+	private String cod_gb;			// ì½”ë“œ êµ¬ë¶„
+	private String cod_depth;       // ì½”ë“œ depth
+	private String cod_description; // ì½”ë“œ ì„¤ëª…
+	private String reg_nm;          // ë“±ë¡ì
+	private Timestamp reg_dt;       // ë“±ë¡ì¼
 	
 	public COD_MGT() {
 		super();

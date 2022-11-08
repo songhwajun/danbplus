@@ -9,18 +9,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.danbplus.mybatis.MybatisTestService;
-import com.danbplus.vo.common.COD_MGT;
+import com.danbplus.config.vo.COD_MGT;
+import com.danbplus.util.MybatisService;
 
 @RestController
-public class MybatisTestController {
+public class MybatisController {
 	@Autowired
-	private MybatisTestService codeService;
+	private MybatisService codeService;
 	
 	@GetMapping("/code")
 	public List<COD_MGT> getCodeList() {
 		System.out.println("===========================================");
-		System.out.println("CodeController [code]");
+		System.out.println("MybatisController [code]");
 		System.out.println("===========================================");
 		HashMap<String, String> hashMap = new HashMap<String, String>();
 		hashMap.put("cod_depth", "1");
@@ -30,7 +30,7 @@ public class MybatisTestController {
 	@GetMapping("/code2")
 	public ModelAndView getCodeList2() { 
 		System.out.println("===========================================");
-		System.out.println("CodeController [code2]");
+		System.out.println("MybatisController [code2]");
 		System.out.println("===========================================");
 		HashMap<String, String> param = new HashMap<String, String>();
 		param.put("cod_depth", "1");

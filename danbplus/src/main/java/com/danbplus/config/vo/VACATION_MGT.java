@@ -1,15 +1,15 @@
-package com.danbplus.vo.user;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class VACATION_MGT {
 	
-	private int usr_no;							// »ç¿ø¹øÈ£
-	private float usr_vacation_carried_forward; // ÀÌ¿ùµÈ ÈŞ°¡
-	private float usr_used_vacation;            // ÀÜ¿© ÈŞ°¡
-	private float usr_total_vacation;           // ÃÑ ÈŞ°¡
-	private String reg_nm;                      // µî·ÏÀÚ
-	private Timestamp reg_dt;                   // µî·ÏÀÏ
+	private int usr_no;							// ì‚¬ì›ë²ˆí˜¸
+	private float usr_vacation_carried_forward; // ì´ì›”ëœ íœ´ê°€
+	private float usr_used_vacation;            // ì”ì—¬ íœ´ê°€
+	private float usr_total_vacation;           // ì´ íœ´ê°€
+	private String reg_nm;                      // ë“±ë¡ì
+	private Timestamp reg_dt;                   // ë“±ë¡ì¼
 	
 	public VACATION_MGT() {
 		super();

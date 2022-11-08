@@ -1,12 +1,12 @@
-package com.danbplus.vo.common;
+package com.danbplus.config.vo;
 
 import java.sql.Timestamp;
 
 public class LOG_UPD {
-	private int mgr_no;			// ¼öÁ¤ÀÚÀÇ »ç¿ø¹øÈ£
+	private int mgr_no;			// ìˆ˜ì •ìì˜ ì‚¬ì›ë²ˆí˜¸
 	private String mapper_id;   // mapper_id
-	private String log_gb;      // ÀûÀç ±¸ºĞ
-	private Timestamp upd_dt;   // ¼öÁ¤ÀÏ
+	private String log_gb;      // ì ì¬ êµ¬ë¶„
+	private Timestamp upd_dt;   // ìˆ˜ì •ì¼
 	
 	public LOG_UPD() {
 		super();
