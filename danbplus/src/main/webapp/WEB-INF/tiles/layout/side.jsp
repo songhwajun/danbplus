@@ -18,6 +18,23 @@
             <!-- ====================================================== 메인 END ============================================================== -->
             <!-- ============================================================================================================================= -->
             
+            
+            <div class="sb-sidenav-menu-heading">Front Test</div>
+            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#frontTest" aria-expanded="false" aria-controls="frontTest">
+                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                Front
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+            </a>
+            <div class="collapse show" id="frontTest" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                <nav class="sb-sidenav-menu-nested nav">
+                    <a class="nav-link" href="userLogin">로그인</a>
+                    <a class="nav-link" href="/userPasswordModify">비밀번호 변경</a>
+                    <a class="nav-link" href="/userModify">정보수정</a>
+                    <a class="nav-link" href="/sign">[관리자] 회원등록</a>
+                </nav>
+            </div>
+            
+            
             <!-- ============================================================================================================================= -->
             <!-- ==================================================== 사용자 START ============================================================= -->
             <!-- ============================================================================================================================= -->

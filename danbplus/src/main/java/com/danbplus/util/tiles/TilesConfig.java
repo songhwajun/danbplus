@@ -1,4 +1,4 @@
-package com.danbplus.util;
+package com.danbplus.util.tiles;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

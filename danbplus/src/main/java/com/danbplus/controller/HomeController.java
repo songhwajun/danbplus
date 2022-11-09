@@ -2,7 +2,6 @@ package com.danbplus.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,7 +17,7 @@ public class HomeController {
 		System.out.println("===========================================");
 
 		model.addAttribute("key", "val");
-		return "main/main.tiles";
+		return "main/DANBMAN001_10V.tiles";
 	}
 	
 	@RequestMapping(value="/login", method = {RequestMethod.GET, RequestMethod.POST})
@@ -27,9 +26,8 @@ public class HomeController {
 		System.out.println("Login");
 		System.out.println("===========================================");
 		
-		ModelAndView mv = new ModelAndView();
-		mv.addObject("key", "val");
-		mv.setViewName("login/login.view");
+		ModelAndView mv = new ModelAndView(); mv.addObject("key", "val");
+		mv.setViewName("login/DANBLGN001_10V.view");
 		
 		return mv;
 	}

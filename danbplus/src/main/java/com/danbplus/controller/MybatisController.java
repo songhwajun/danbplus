@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.danbplus.config.vo.COD_MGT;
-import com.danbplus.util.MybatisService;
+import com.danbplus.util.mybatis.MybatisService;
 
 @RestController
 public class MybatisController {
