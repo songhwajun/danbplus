@@ -18,27 +18,6 @@
             <!-- ====================================================== 메인 END ============================================================== -->
             <!-- ============================================================================================================================= -->
             
-            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#front" aria-expanded="false" aria-controls="front">
-                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                Front
-                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-            </a>
-            <div class="collapse" id="front" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
-                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#commonFront" aria-expanded="false" aria-controls="commonFront">
-                        공통
-                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                    </a>
-                    <div class="collapse" id="commonFront" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                        <nav class="sb-sidenav-menu-nested nav">
-		                    <a class="nav-link" href="/common_1">로그인</a>
-		                    <a class="nav-link" href="/common_2">비밀번호 변경</a>
-		                    <a class="nav-link" href="/common_3">정보수정</a>
-                        </nav>
-                    </div>
-                </nav>
-            </div>
-            
             <!-- ============================================================================================================================= -->
             <!-- ==================================================== 사용자 START ============================================================= -->
             <!-- ============================================================================================================================= -->
@@ -50,8 +29,8 @@
             </a>
             <div class="collapse" id="userVacation" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a class="nav-link" href="/user_1">휴가관리</a>
-                    <a class="nav-link" href="/user_2">휴가신청</a>
+                    <a class="nav-link" href="/vacationMgt">휴가관리</a>
+                    <a class="nav-link" href="/vacationReq">휴가신청</a>
                     <a class="nav-link" href="#">휴가 변경/취소</a>
                 </nav>
             </div>
@@ -113,7 +92,7 @@
             <!-- ==================================================== 관리자 START ============================================================= -->
             <!-- ============================================================================================================================= -->
             <div class="sb-sidenav-menu-heading">관리자</div>
-            <a class="nav-link" href="/admin_1">
+            <a class="nav-link" href="/userInsert">
                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                 회원등록
             </a>
