@@ -1,4 +1,5 @@
 <%@ page pageEncoding="UTF-8"%>
+<h2>DANBCMM001_20V</h2>
 <div id="layoutAuthentication">
     <div id="layoutAuthentication_content">
         <main>
@@ -18,8 +19,8 @@
                                         <label for="inputPassword">Password</label>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                        <a class="btn btn-primary" href="login.jsp">Password Change</a>
-                                        <a class="btn btn-outline-secondary" href="login.jsp">No Change</a>
+                                        <a class="btn btn-primary w-50" href="#">변경하기</a>
+                                        <a class="btn btn-outline-secondary w-25" href="#">취소</a>
                                     </div>
                                 </form>
                                 <div class="small mt-3 text-muted">

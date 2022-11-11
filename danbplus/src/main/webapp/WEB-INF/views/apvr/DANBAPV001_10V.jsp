@@ -1,4 +1,5 @@
 <%@ page pageEncoding="UTF-8"%>
+<h2>DANBAPV001_10V</h2>
 <div id="layoutAuthentication">
     <div id="layoutAuthentication_content">
         <main>
@@ -43,10 +44,10 @@
                                         <label for="inputRank">직급</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputCompanyDt" type="text" placeholder="2022-11-09"/>
+                                        <input class="form-control" id="inputCompanyDt" type="date" placeholder="2022-11-09"/>
                                         <label for="inputCompanyDt">입사일</label>
                                     </div>
-                                    <button class="w-100 btn btn-primary btn-lg" type="submit">가입하기</button>
+                                    <a class="btn btn-primary w-100 " href="#">가입하기</a>
                                 </form>
                             </div>
                         </div>

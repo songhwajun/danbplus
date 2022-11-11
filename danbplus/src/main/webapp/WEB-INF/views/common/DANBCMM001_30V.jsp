@@ -1,4 +1,5 @@
 <%@ page pageEncoding="UTF-8"%>
+<h2>DANBCMM001_30V</h2>
 <div id="layoutAuthentication">
     <div id="layoutAuthentication_content">
         <main>
@@ -45,7 +46,7 @@
                                         <input class="form-control" id="inputCompanyModifyDt" type="date" placeholder="정규직 전환일"/>
                                         <label for="inputCompanyModifyDt">정규직 전환일</label>
                                     </div>
-                                    <button class="w-100 btn btn-primary btn-lg" type="submit">수정하기</button>
+                                    <a class="btn btn-primary w-100 " href="#">수정하기</a>
                                 </form>
                                 <div class="small mt-3 text-muted">
                                 	※ 입사일, 정규직 전환일은 최초 1회만 변경이 가능하며, 이후 변경을 원하실 경우 <u>관리자에게 문의</u>바랍니다.

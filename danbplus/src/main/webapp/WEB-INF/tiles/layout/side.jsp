@@ -18,22 +18,26 @@
             <!-- ====================================================== 메인 END ============================================================== -->
             <!-- ============================================================================================================================= -->
             
-            
-            <div class="sb-sidenav-menu-heading">Front Test</div>
-            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#frontTest" aria-expanded="false" aria-controls="frontTest">
-                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#front" aria-expanded="false" aria-controls="front">
+                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                 Front
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
             </a>
-            <div class="collapse show" id="frontTest" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                <nav class="sb-sidenav-menu-nested nav">
-                    <a class="nav-link" href="userLogin">로그인</a>
-                    <a class="nav-link" href="/userPasswordModify">비밀번호 변경</a>
-                    <a class="nav-link" href="/userModify">정보수정</a>
-                    <a class="nav-link" href="/sign">[관리자] 회원등록</a>
+            <div class="collapse" id="front" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#commonFront" aria-expanded="false" aria-controls="commonFront">
+                        공통
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="commonFront" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                        <nav class="sb-sidenav-menu-nested nav">
+		                    <a class="nav-link" href="/common_1">로그인</a>
+		                    <a class="nav-link" href="/common_2">비밀번호 변경</a>
+		                    <a class="nav-link" href="/common_3">정보수정</a>
+                        </nav>
+                    </div>
                 </nav>
             </div>
-            
             
             <!-- ============================================================================================================================= -->
             <!-- ==================================================== 사용자 START ============================================================= -->
@@ -46,8 +50,8 @@
             </a>
             <div class="collapse" id="userVacation" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a class="nav-link" href="/login">휴가관리</a>
-                    <a class="nav-link" href="#">휴가신청</a>
+                    <a class="nav-link" href="/user_1">휴가관리</a>
+                    <a class="nav-link" href="/user_2">휴가신청</a>
                     <a class="nav-link" href="#">휴가 변경/취소</a>
                 </nav>
             </div>
@@ -109,7 +113,7 @@
             <!-- ==================================================== 관리자 START ============================================================= -->
             <!-- ============================================================================================================================= -->
             <div class="sb-sidenav-menu-heading">관리자</div>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/admin_1">
                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                 회원등록
             </a>
@@ -134,6 +138,7 @@
             <!-- ============================================================================================================================= -->
             <!-- ==================================================== DEMO START ============================================================= -->
             <!-- ============================================================================================================================= -->
+            <!-- 
             <div class="sb-sidenav-menu-heading">DEMO</div>
             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#demo_1" aria-expanded="false" aria-controls="demo_1">
                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -146,8 +151,8 @@
                     <a class="nav-link" href="#">layout-sidenav-light</a>
                 </nav>
             </div>
-            <!-- demo1 END -->
-            <!-- demo2 START -->
+            demo1 END
+            demo2 START
             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#demo_2" aria-expanded="false" aria-controls="demo_2">
                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                 demo2
@@ -182,7 +187,7 @@
                     </div>
                 </nav>
             </div>
-            <!-- demo2 END -->
+            demo2 END
             <div class="sb-sidenav-menu-heading">Addons</div>
             <a class="nav-link" href="charts.jsp">
                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
@@ -192,6 +197,7 @@
                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                 Tables
             </a>
+             -->
             <!-- ============================================================================================================================= -->
             <!-- ===================================================== DEMO END ============================================================== -->
             <!-- ============================================================================================================================= -->

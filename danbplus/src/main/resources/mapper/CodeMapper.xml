@@ -4,4 +4,12 @@
   <select id="getCodeList" resultType="COD_MGT">
     select * from cod_mgt where cod_depth = #{cod_depth};
   </select>
+
+  <select id="getLogin" resultType="LOGIN_MGT">
+    select * from login_mgt where usr_id = #{usr_id} and usr_pw = #{usr_pw};
+  </select>
+  
+  <select id="getUserInfo" resultType="USER_INFO">
+    select * from user_info where usr_id = #{usr_id};
+  </select>
 </mapper>

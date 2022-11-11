@@ -1,4 +1,5 @@
 <%@ page pageEncoding="UTF-8"%>
+<h2>DANBCMM001_10V</h2>
 <div id="layoutAuthentication">
     <div id="layoutAuthentication_content">
         <main>
@@ -10,7 +11,7 @@
                             <div class="card-body">
                                 <form>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                                        <input class="form-control" id="inputId" type="text" placeholder="name" required="required"/>
                                         <label for="inputEmail">ID</label>
                                         <!-- <label for="inputEmail">Email address</label> -->
                                     </div>
@@ -25,11 +26,7 @@
                                     </div>
                                      -->
                                     <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                    	<button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-                                        <!-- 
-                                        <a class="small" href="password.jsp">Forgot Password?</a>
-                                        <a class="btn btn-primary" href="index.jsp">Login</a>
-                                    	 -->
+                                        <a class="btn btn-primary w-100" href="#" id="login">Login</a>
                                     </div>
                                 </form>
                             </div>
@@ -45,3 +42,11 @@
         </main>
     </div>
 </div>
+
+<script type="text/javascript">
+// <![CDATA[
+$(document).ready(function() {
+
+});
+// ]]>
+</script>
